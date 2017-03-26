@@ -13,10 +13,23 @@ $navbar-default-bg: #db2020;
   height: 300px;
 }
 
-.footer {
+footer {
   background-color: #c4c4c4;
-  height: 50px;
   padding-top: 15px;
+  border-top: 1px solid #db2020;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer ul {
+  float: left;
+  list-style: none;
 }
 
 #logo {
