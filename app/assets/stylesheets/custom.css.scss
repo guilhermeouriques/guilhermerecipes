@@ -14,9 +14,11 @@ $navbar-default-bg: #db2020;
 }
 
 footer {
-  background-color: #c4c4c4;
-  padding-top: 15px;
-  border-top: 1px solid #db2020;
+  margin-top: 45px;
+  padding-top: 10px;
+  border-top: 1px solid #eaeaea;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 footer a {
@@ -101,4 +103,8 @@ footer ul {
   color: #db2020;
   font-weight: bold;
   font-size: 1.25em;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
